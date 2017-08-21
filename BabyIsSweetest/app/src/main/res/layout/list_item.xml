@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="10dp"
+        android:background="#f8f6f9"
+        >
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_launcher"
+            android:adjustViewBounds="true"
+            />
+
+        <Button
+            android:id="@+id/reserver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reserver"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nom"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/reserver"
+            android:layout_toLeftOf="@+id/img"
+
+            android:layout_centerHorizontal="true"
+
+            />
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurant"
+            android:layout_below="@+id/nom"
+            android:layout_toRightOf="@+id/reserver"
+            android:layout_toLeftOf="@+id/img"
+
+            android:layout_marginTop="10dp"
+            />
+
+</RelativeLayout>
+

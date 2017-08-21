@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/dialog_photos"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:adjustViewBounds="true"
+        android:layout_above="@+id/description"
+        android:layout_alignParentTop="true"/>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:layout_above="@+id/description_info"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+         <TextView
+            android:id="@+id/description_info"
+            android:layout_width="190dp"
+            android:layout_height="100dp"
+            android:text="@string/description"
+             android:layout_above="@+id/contacter"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentStart="true"
+             android:layout_marginBottom="55dp" />
+    <TextView
+        android:id="@+id/responsable"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="@string/responsable"
+
+        android:layout_alignBaseline="@+id/description"
+        android:layout_alignBottom="@+id/description"
+        android:layout_toRightOf="@+id/description"
+        android:layout_toEndOf="@+id/description" />
+
+    <TextView
+        android:id="@+id/responsable_info"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:text="@string/responsable"
+        android:layout_alignBaseline="@+id/description_info"
+        android:layout_alignBottom="@+id/description_info"
+        android:layout_toRightOf="@+id/description_info"
+        android:layout_toEndOf="@+id/description_info" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="@string/email"
+
+        android:layout_alignBottom="@+id/description_info"
+        android:layout_toRightOf="@+id/description_info"
+        android:layout_toEndOf="@+id/description_info" />
+    <Button
+        android:id="@+id/contacter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reserver"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>

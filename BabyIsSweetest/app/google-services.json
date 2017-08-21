@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "875498014007",
+    "firebase_url": "https://babi-is-sweetest.firebaseio.com",
+    "project_id": "babi-is-sweetest",
+    "storage_bucket": "babi-is-sweetest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875498014007:android:ed5f6e7d0b1e8cc8",
+        "android_client_info": {
+          "package_name": "com.webivoire.babyissweetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875498014007-3rj5aov5i4has4mdc5lnjjk1kmh22ta4.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "875498014007-28ek7vt6ogag65tr7fsrcffre06qvktf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhMCQwSGXy2oXFNC53qcW2TfzKD7Q3-qU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

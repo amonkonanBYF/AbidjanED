@@ -1,0 +1,22 @@
+
+<resources>
+<string name="app_name">Baby Is Sweetest</string>
+<string name="abidjan">Abidjan</string>
+<string name="assinie">Assinie</string>
+<string name="restaurant">Restaurant</string>
+<string name="hotel">Hotel</string>
+<string name="nightClub">Boite De Nuit</string>
+<string name="nom">Nom</string>
+<string name="description">Description: </string>
+<string name="reserver">Contacter</string>
+
+    <string name="responsable">Responsable:</string>
+    <string name="email">eamil:</string>
+
+
+
+
+
+
+
+</resources>
